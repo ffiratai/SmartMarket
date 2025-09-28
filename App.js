@@ -4,7 +4,9 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { View, Text } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import ProductScreen from './src/screens/ProductScreen';
+import ProductScreen from './src/screens/ProductScreen'
+import BarcodeScreen from './src/screens/BarcodeScreen';  // ← BU SATIRI EKLEYİN
+import SettingsScreen from './src/screens/SettingsScreen'; // ← BU SATIRI EKLEYİN;
 
 const Tab = createBottomTabNavigator();
 
